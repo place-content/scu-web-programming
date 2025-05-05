@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>김경호 - 프론트엔드 개발자</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="theme-switch-wrapper">
+      <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round">
+          <i class="fas fa-sun"></i>
+          <i class="fas fa-moon"></i>
+        </div>
+      </label>
+    </div>
+
+    <header>
+      <div class="container">
+        <h1 class="name">김경호</h1>
+        <p class="title">프론트엔드 개발자</p>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#about">소개</a></li>
+            <li><a href="#skills">기술 스택</a></li>
+            <li><a href="#portfolio">포트폴리오</a></li>
+            <li><a href="#experience">경력</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section-title">소개</h2>
+          <div class="about-content">
+            <div class="profile-image">
+              <img
+                src="./images/profile.jpg"
+                alt="김경호 프로필 이미지"
+                loading="lazy"
+              />
+            </div>
+            <div class="about-text">
+              <p>안녕하세요! 저는 <strong>김경호</strong>입니다.</p>
+              <p>
+                사용자 경험을 중요시하는 프론트엔드 개발자로, 웹 기술을 통해
+                사람들의 일상을 더 편리하게 만드는 것을 목표로 하고 있습니다.
+              </p>
+              <p>
+                새로운 기술을 배우고 적용하는 것을 좋아하며, 팀과 함께 성장하는
+                것을 중요하게 생각합니다.
+              </p>
+
+              <h3>취미</h3>
+              <ul class="hobby-list">
+                <li>코딩 사이드 프로젝트</li>
+                <li>기술 블로그 작성</li>
+                <li>새로운 프레임워크 탐구</li>
+                <li>개발자 컨퍼런스 참석</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <h2 class="section-title">기술 스택</h2>
+          <div class="skills-container">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                  alt="React 아이콘"
+                />
+              </div>
+              <h3>React</h3>
+              <p>
+                컴포넌트 기반 UI 개발, Redux를 활용한 상태 관리, React Hooks
+                활용
+              </p>
+              <div class="skill-level">
+                <div class="progress-bar">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+                <span>90%</span>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                  alt="Next.js 아이콘"
+                />
+              </div>
+              <h3>Next.js</h3>
+              <p>서버 사이드 렌더링, 정적 사이트 생성, API 라우트 개발</p>
+              <div class="skill-level">
+                <div class="progress-bar">
+                  <div class="progress" style="width: 85%"></div>
+                </div>
+                <span>85%</span>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+                  alt="Vue 아이콘"
+                />
+              </div>
+              <h3>Vue</h3>
+              <p>Vue 컴포넌트 개발, Vuex를 활용한 상태 관리, Vue Router 활용</p>
+              <div class="skill-level">
+                <div class="progress-bar">
+                  <div class="progress" style="width: 80%"></div>
+                </div>
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+
+          <h3>기타 기술</h3>
+          <div class="other-skills-container">
+            <div class="other-skill-item">
+              <span>HTML5 & CSS3</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="other-skill-item">
+              <span>JavaScript (ES6+)</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="other-skill-item">
+              <span>TypeScript</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="other-skill-item">
+              <span>React-Native</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="other-skill-item">
+              <span>Flutter</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <h2 class="section-title">경력</h2>
+          <div class="experience-item">
+            <div class="experience-header">
+              <h3>프론트엔드 개발자</h3>
+              <p class="company">스타트업</p>
+              <p class="period">2023.07.24 ~ 재직중</p>
+            </div>
+            <div class="experience-body">
+              <ul class="responsibility-list">
+                <li>React와 Next.js를 활용한 웹 애플리케이션 개발</li>
+                <li>사용자 경험 개선을 위한 UI/UX 최적화</li>
+                <li>백엔드 개발자와 협업하여 RESTful API 연동</li>
+                <li>코드 리뷰 및 팀 내 기술 공유</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 김경호. All rights reserved.</p>
+        <p class="footer-quote">"항상 배우고 성장하는 개발자가 되겠습니다."</p>
+      </div>
+    </footer>
+
+    <button id="back-to-top" title="맨 위로 이동">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- 외부 JavaScript 파일 참조 -->
+    <script src="script.js"></script>
+  </body>
+</html>

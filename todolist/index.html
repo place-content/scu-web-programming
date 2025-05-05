@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simple and effective todo list application"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Todo list</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">SCU Todo-list</h1>
+    </header>
+    <main>
+      <section class="todo-section">
+        <form id="todo-form" class="todolist-container">
+          <div class="todolist-input">
+            <input
+              type="text"
+              id="todo-input"
+              placeholder="ex) study web-programming"
+              required
+            />
+          </div>
+          <button type="submit" id="add-button">ADD</button>
+        </form>
+
+        <div class="todo-list-container">
+          <div class="todo-list-header">
+            <h2>My Tasks</h2>
+            <button
+              id="delete-selected-btn"
+              class="delete-selected-btn"
+              disabled
+            >
+              Delete Selected
+            </button>
+          </div>
+          <ul id="todo-list" class="todo-items"></ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
